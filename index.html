@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe App</title>
+</head>
+<body>
+    <div class="container">
+        <div class="row text-center">
+            <!-- This will hold an h3 tag that says "Recipe App" -->
+            <h3>Recipe App</h3>
+            <!-- This will hold an h5 tag that says "Get a random meal by clicking below" -->
+            <h5>Get a random meal by clicking below</h5>
+            <!-- This will hold an button tag with a class called "button-primary" and an id called "get_meal" that says "New Recipe" -->
+            <div class="button-primary" id="get_meal"><button>New Recipe</button></div>
+
+            <!-- This is a div with an id name called "meal" for JavaScript purposes and the class name called "row meal" for CSS purposes -->
+            <div id="meal" class="row meal">
+                <!-- I'm adding the meal info later inside Javascript file -->
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
